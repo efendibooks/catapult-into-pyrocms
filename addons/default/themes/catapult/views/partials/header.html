@@ -2,8 +2,17 @@
 <html>
 <head>
 	<title>{{ settings:site_name }} | {{ template:title }}</title>
+
+    {{ asset:css file="theme::bootstrap.css" }}
+    {{ asset:css file="theme::style.css" }}
+
+    {{ asset:render }}
 </head>
 <body>
 	<header>
-		<h1>{{ settings:site_name }}</h1>
+		<h1><a href="{{ url:site }}">{{ settings:site_name }}</a></h1>
 	</header>
+
+    <nav>
+        <ul>{{ navigation:links group="header" }}</ul>
+    </nav>
