@@ -94,9 +94,55 @@ nav ul li.current a, nav ul li a:hover {
     margin: 5px 10px 10px 0;
 }
 
+.team-member-list:hover {
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+#posts .post .date {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-left: -80px;
+    background: white;
+}
+
+#posts .post .date .day {
+    font-size: 46px;
+    padding-top: 12px;
+    padding-left: 4px;
+    display: block;
+}
+
+#posts .post .date .month {
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 7px;
+    padding-left: 6px;
+    letter-spacing: 8px;
+}
+
+#posts .post h3 a {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#posts .post h3 a:hover {
+    text-decoration: none;
+}
+
+#posts .post h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+#posts .post h4.inset-left {
+    margin-left: -22px;
+}
+
 footer {
     padding: 5px 20px;
     max-width: 600px;
-    margin: 0 auto 50px auto;
+    margin: 5px auto 50px auto;
     font-size: 11px;
 }

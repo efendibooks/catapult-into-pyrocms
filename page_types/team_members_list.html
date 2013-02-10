@@ -1,0 +1,9 @@
+{{ pages:children id="{{ page:id }}" }}
+
+    <a href="{{ url }}" class="team-member-list">
+        {{ custom_fields }}
+            <img src="{{ picture:file }}" />
+        {{ /custom_fields }}
+    </a>
+
+{{ /pages:children }}
